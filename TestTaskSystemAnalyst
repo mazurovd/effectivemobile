@@ -100,8 +100,45 @@
 3. Каких "других" продуктов может быть реклама? И реклама может быть или обязана быть?
 
 
-Ответы на задание 2 пункт 1:
+Ответ на задание 2 пункт 1:
 Написать пример REST API запроса, который будет вызываться при переходе
 пользователя на данный экран.
 
- 
+ GET https://pertushka.ru/partners
+
+Ответ на задание 2 пункт 2:
+Привести пример ответа этого REST API в соответствии с макетом. Формат -
+JSON. Учесть, что при клике на плашку магазина должен осуществляться
+переход по ссылке на внешний ресурс.
+
+[
+  {
+    "id": "1",
+    "storeName": "Metro",
+    "storeUrl": "https://metro-online.ru",
+    "storeImage": "https://stock.ru/metro-online",
+    "deliveryInfo": "Ближайшая доставка сегодня 21:00-23:00"
+  },
+  {
+    "id": "2",
+    "storeName": "Auchan",
+    "storeUrl": "https://Auchan.com",
+    "storeImage": "https://stock.ru/Auchan",
+    "deliveryInfo": "Ближайшая доставка сегодня 18:00-20:00"
+  },
+  {
+    "id": "3",
+    "storeName": "VkusWill",
+    "storeUrl": "https://VkusWill.ru",
+    "storeImage": "https://stock.ru/VkusWill",
+    "deliveryInfo": "Быстрая доставка от 20 до 60 минут"
+  },
+  {
+    "id": "4",
+    "storeName": "Victoriya",
+    "storeUrl": "https://Victoriya.ru",
+    "storeImage": "https://stock.ru/Victoriya",
+    "deliveryInfo": "Ближайшая доставка сегодня 17:00-19:00"
+  }
+]
+
